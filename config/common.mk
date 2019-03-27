@@ -230,6 +230,7 @@ PRODUCT_PACKAGES += \
     CertifiedPropsOverlay \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
+    NotchBarKillerOverlay \
     NetworkStackOverlay \
     ThemedIconsOverlay \
     NavigationBarNoHintOverlay
