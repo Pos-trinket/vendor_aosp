@@ -6,12 +6,12 @@
 <resources>
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>PRODUCT:ferrari</item>
-        <item>DEVICE:ferrari</item>
-        <item>MANUFACTURER:Xiaomi</item>
-        <item>BRAND:xiaomi</item>
-        <item>MODEL:Mi 4i</item>
-        <item>FINGERPRINT:Xiaomi/ferrari/ferrari:5.0.2/LRX22G/V6.4.10.0.LXIMICB:user/release-keys</item>
-        <item>VERSION.SECURITY_PATCH:2019-08-05</item>
+        <item>PRODUCT:clark_retus</item>
+        <item>DEVICE:clark</item>
+        <item>MANUFACTURER:motorola</item>
+        <item>BRAND:motorola</item>
+        <item>MODEL:XT1575</item>
+        <item>FINGERPRINT:motorola/clark_retus/clark:6.0/MPHS24.49-18-8/4:user/release-keys</item>
+        <item>VERSION.SECURITY_PATCH:2016-09-01</item>
     </string-array>
 </resources>
