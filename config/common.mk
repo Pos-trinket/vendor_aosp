@@ -179,6 +179,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init/init.openssh.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.openssh.rc
 
+# Properties for the Unspecialized App Process Pool
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.usap_pool_enabled=true \
+    dalvik.vm.usap_refill_threshold=5 \
+    dalvik.vm.usap_pool_size_max=10 \
+    dalvik.vm.usap_pool_size_min=1 \
+    dalvik.vm.usap_pool_refill_delay_ms=3000
+
 # rsync
 PRODUCT_PACKAGES += \
     rsync
